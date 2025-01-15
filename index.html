@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Role</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Apa Role Kamu?</h1>
+        <input type="text" id="nameInput" placeholder="Nama kamu" />
+        <button id="generateButton">Cek</button>
+
+        <!--Animasi loading dengan popup box semi-transparan-->
+        <div id="loading" class="loading hidden">
+            <div class="loading-box">
+                <div class="spinner"></div>
+                <p>Loading Boongan...</p>
+            </div>
+        </div>
+
+        <p id="roleResult"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
