@@ -31,7 +31,7 @@ generateButton.addEventListener("click", function() {
             const randomRole = roles[Math.floor(Math.random() * roles.length)];
             roleResult.textContent = `${name}, role kamu adalah: ${randomRole}`;
             
-            nameInput.value = ""; // Hapus input setelah hasil ditampilkan
+            nameInput.value = "";
             loading.style.display = "none";
         }, 3000);
     }
