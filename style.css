@@ -9,6 +9,11 @@ body {
     background-color: #f4f4f4; /* Soft background color */
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
+
 /* Container utama (box) */
 .container {
     text-align: center;
