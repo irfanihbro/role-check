@@ -97,18 +97,3 @@ button:hover {
 .hidden {
     display: none;
 }
-
-}
-.model-viewer {
-    width: 100%;
-    max-width: 100%;
-    height: 400px;
-    margin: 0 auto 20px;
-}
-
-@media (max-width: 768px) {
-    .model-viewer {
-        height: 300px;
-        margin: 20px auto;
-    }
-}
