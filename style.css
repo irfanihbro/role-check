@@ -48,8 +48,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
     width: auto;
-    max-width: 100%;
-    white-space: nowrap;
     margin-top: 10px;
 }
 
