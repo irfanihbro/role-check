@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Role Checker">
-    <meta property="og:image" content="img/checkrole.png">
     <meta property="og:description" content="Alat untuk cek sosok asli kamu.">
     <title>Cek Role</title>
     <link rel="icon" href="img/checkrole.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <style>
+        model-viewer {
+            width: 630px;
+            height: 630px;
+        }
+    </style>
 </head>
 <body>
+    <model-viewer src="img/noob.glb" camera-controls></model-viewer>
     <div class="container">
         <h1>Apa Role Kamu?</h1>
         <input type="text" id="nameInput" placeholder="Nama kamu" />
@@ -21,7 +28,6 @@
                 <p>Loading Boongan...</p>
             </div>
         </div>
-
         <p id="roleResult"></p>
     </div>
     <script src="script.js"></script>
