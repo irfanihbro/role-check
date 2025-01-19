@@ -13,7 +13,6 @@ body {
     overflow: hidden;
 }
 
-
 /* Container utama (box) */
 .container {
     text-align: center;
@@ -103,4 +102,13 @@ button:hover {
 /* Menyembunyikan loading box */
 .hidden {
     display: none;
+}
+
+/* Model Viewer Styling */
+.model-viewer {
+    width: 100%;
+    max-width: 300px; /* Maksimum lebar untuk model */
+    height: auto;
+    margin: 0 auto 20px; /* Tengahkan dan beri jarak dengan elemen lain */
+    display: block;
 }
