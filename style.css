@@ -47,7 +47,9 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
+    white-space: nowrap;
     margin-top: 10px;
 }
 
