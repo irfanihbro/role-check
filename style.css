@@ -44,7 +44,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: auto;
+    width: 25vh;
     margin-top: 10px;
 }
 
